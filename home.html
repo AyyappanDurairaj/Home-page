@@ -4,7 +4,7 @@
 <meta charset="utf-10">
 <meta name="viewport" content="width=device-width, initial-scale=">
 <title>Restaurant</title>
-<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="homenew.css">
 <link rel="icon" type="image/x-icon" href="/images/logo.ico">
 </head>
 <body>
@@ -14,7 +14,7 @@
 <div class="header">
 <nav>
 <div class="Restaurant">
-<a href="">A - Z Foods</a>
+<a href="">A to Z Foods</a>
 <div class="Slideshow" style="max-width:500px">
   <img class="mySlides" src="https://c0.wallpaperflare.com/preview/565/228/846/japanese-japan-restaurant-culture.jpg" width="1263" height="550">
   <img class="mySlides" src="https://5.imimg.com/data5/PN/LT/GLADMIN-28409022/south-indian-500x500.jpg" width="1263" height="550">
@@ -22,18 +22,20 @@
 </div>
 </div>
 <ul>
-<li><a href="file:///C:/Users/ayyappan.durairaj/Documents/home.html">HOME</a></li>
-<li><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target">MENU</a></li>
-<li><a href="">BOOK TABLE</a></li>
-<li><a href="">ABOUT US</a></li>
-<li><a href="">REVIEW</a></li>
+
+<li><a href="http://localhost/Menu.php">MENU</a></li>
+<li><a href="http://localhost/book%20table.php">BOOK TABLE</a></li>
+<li><a href="http://localhost/About%20us.php">ABOUT US</a></li>
+<li><a href="http://localhost/review.php">REVIEW</a></li>
+<li><a href="http://localhost/front.php">LOGOUT</a></li>
 </ul>
 </nav>
 <div class="overlay">
 <div class="content">
-<h1 style="margin-left:-200px; color: #150C92;">WELCOME TO <br>A - Z FOODS</br></h1>
+<h1 style="margin-left:-200px; color: black; background-color: ghostwhite;">WELCOME TO <br>A to Z FOODS</br></h1>
 </div> </div>
 </div></div></div>
+
 <script>
 var myIndex = 0;
 carousel();
@@ -46,7 +48,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 2000); 
 }
 </script>
 </body>
